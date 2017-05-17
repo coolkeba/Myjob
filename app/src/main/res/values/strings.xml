@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Myjob</string>
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--<string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+    <string name="action_settings">Settings</string>
+    <string name="inputp">输入手机号注册</string>
+    <string name="get">获取验证码</string>
+    <string name="login">确认</string>
+    <string name="inputy">输入验证码</string>
+    <string name="day">请从上方选择寄存天数</string>
+</resources>

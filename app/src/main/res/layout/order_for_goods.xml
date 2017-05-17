@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp">
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/my_phone"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:gravity="center"
+            android:layout_toEndOf="@+id/my_name"
+            android:layout_alignBottom="@+id/my_name"
+            android:layout_alignTop="@+id/my_name" />
+
+        <TextView
+            android:id="@+id/my_address"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_alignEnd="@+id/my_phone"
+            android:layout_alignStart="@+id/my_name"
+            android:layout_below="@+id/my_name"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_for_goods_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+
+        <ImageButton
+            android:id="@+id/submit_order_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="120dp"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/cancel_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/submit_order_bt"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/xianyu_color</item>
+        <item name="colorPrimaryDark">@color/xianyu_color</item>
+        <item name="colorAccent">@color/xianyu_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/white_yellow</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--eee-->
+    <style name="ImageView.Base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageView"></style>
+
+    <style name="TextView.Likes">
+        <item name="android:textColor">#C2C2C2</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#28000000</item>
+    </style>
+
+    <style name="TextView.TicketTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView.Base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView.TicketDay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#78000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DaS_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>

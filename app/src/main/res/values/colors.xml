@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white_yellow">#f6f5f3</color>
+    <!--<color name="gray">#dfd6c5</color>-->
+    <color name="white_start">#fffcff</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="noColor">#00000000</color>
+    <color name="lightGray">#A9A9A9</color>
+    <color name="gray">#e5e5e5</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FDD835</color>
+    <color name="black_80">#222222</color>
+    <color name="xianyu_color2">#fddd4a</color>
+    <color name="weixuanzhong">#66000000</color>
+    <color name="gray_light_30">#F2F2F2</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="xianyu_color">#F6C555</color>
+
+</resources>
